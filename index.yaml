@@ -2,19 +2,19 @@ apiVersion: v1
 entries:
   custom-manifest:
   - apiVersion: v2
-    created: "2024-11-26T12:44:19.454461+03:00"
+    created: "2024-11-29T16:42:57.80862+03:00"
     description: A Helm chart that applies Kubernetes manifests specified in values
       as it is
     digest: 0e3171da2dbfcaaaf01ee13056f44ce1610535caaa59ae95e9b04754dced1be5
     name: custom-manifest
     type: application
     urls:
-    - https://puhhh.github.io/pages-helm-repo/custom-manifest-0.0.1.tgz
+    - https://puhhh.github.io/helm-repo/custom-manifest-0.0.1.tgz
     version: 0.0.1
   local-path-provisioner:
   - apiVersion: v1
     appVersion: v0.0.30
-    created: "2024-11-26T12:44:19.456481+03:00"
+    created: "2024-11-29T16:42:57.810651+03:00"
     description: Use HostPath for persistent local storage with Kubernetes
     digest: c91593d5efd57c93feb37d586721a11255a35554bb24d73af6cd8cfac3fd2e55
     home: https://github.com/rancher/local-path-provisioner
@@ -26,11 +26,11 @@ entries:
     sources:
     - https://github.com/rancher/local-path-provisioner.git
     urls:
-    - https://puhhh.github.io/pages-helm-repo/local-path-provisioner-0.0.30.tgz
+    - https://puhhh.github.io/helm-repo/local-path-provisioner-0.0.30.tgz
     version: 0.0.30
   - apiVersion: v1
     appVersion: 0.0.28
-    created: "2024-11-26T12:44:19.455562+03:00"
+    created: "2024-11-29T16:42:57.809596+03:00"
     description: Use HostPath for persistent local storage with Kubernetes
     digest: 68561ab6bf1d3c8fb6f3f2186c5b3f8ecbf99464727d94d95dc6d2c2d925263c
     home: https://github.com/rancher/local-path-provisioner
@@ -42,16 +42,16 @@ entries:
     sources:
     - https://github.com/rancher/local-path-provisioner.git
     urls:
-    - https://puhhh.github.io/pages-helm-repo/local-path-provisioner-0.0.28.tgz
+    - https://puhhh.github.io/helm-repo/local-path-provisioner-0.0.28.tgz
     version: 0.0.28
   vault:
   - annotations:
       charts.openshift.io/name: HashiCorp Vault
     apiVersion: v2
-    appVersion: 1.17.2
-    created: "2024-11-26T12:44:19.460117+03:00"
+    appVersion: 1.18.1
+    created: "2024-11-29T16:42:57.814491+03:00"
     description: Official HashiCorp Vault Chart
-    digest: a5fba9b9b1d569682a6e81bab976e50f058c98be32f41e8e21bacbb6949002ef
+    digest: 1aa2ed66eded9e37e96e1a609d6db437a7880521a6e23007886317306e43b3d2
     home: https://www.vaultproject.io
     icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
     keywords:
@@ -70,6 +70,6 @@ entries:
     - https://github.com/hashicorp/vault-k8s
     - https://github.com/hashicorp/vault-csi-provider
     urls:
-    - https://puhhh.github.io/pages-helm-repo/vault-0.28.1.tgz
-    version: 0.28.1
-generated: "2024-11-26T12:44:19.453039+03:00"
+    - https://puhhh.github.io/helm-repo/vault-0.29.1.tgz
+    version: 0.29.1
+generated: "2024-11-29T16:42:57.807645+03:00"
